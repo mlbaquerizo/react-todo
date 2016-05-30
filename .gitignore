@@ -1,4 +1,3 @@
-.git
 .DS_Store
 node-modules
 webpack.config.js
