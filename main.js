@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Todo from './Todo';
+import TodoBox from './TodoBox';
 
-ReactDOM.render(<Todo />, document.getElementById('app'))
+ReactDOM.render(
+  <TodoBox url="./listdata.json" pollInterval={3000}/>, document.getElementById('app')
+);
